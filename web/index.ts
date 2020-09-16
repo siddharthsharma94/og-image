@@ -149,10 +149,6 @@ const markdownOptions: DropdownOption[] = [
 
 const imageLightOptions: DropdownOption[] = [
   {
-    text: 'Airport',
-    value: 'https://airport.community/images/logo2.svg',
-  },
-  {
     text: 'Next.js',
     value:
       'https://assets.vercel.com/image/upload/front/assets/design/nextjs-black-logo.svg',
@@ -166,6 +162,10 @@ const imageLightOptions: DropdownOption[] = [
     text: 'Jedi',
     value:
       'https://dl.airtable.com/.attachmentThumbnails/7136316ae61f2abeca27085ae05b8b1f/db9f8d9d.png',
+  },
+  {
+    text: 'Airport',
+    value: 'https://airport.community/images/logo2.svg',
   },
 ];
 
