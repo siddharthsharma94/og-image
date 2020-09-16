@@ -160,7 +160,8 @@ const imageLightOptions: DropdownOption[] = [
   },
   {
     text: 'Jedi',
-    value: 'https://airport.community/images/logo2.svg',
+    value:
+      'https://dl.airtable.com/.attachmentThumbnails/7136316ae61f2abeca27085ae05b8b1f/db9f8d9d.png',
   },
 ];
 
