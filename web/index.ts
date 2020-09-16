@@ -1,4 +1,5 @@
 import { ParsedRequest, Theme, FileType } from '../api/_lib/types';
+const logo = require('./hyper-color-logo.svg');
 const { H, R, copee } = window as any;
 let timeout = -1;
 
@@ -150,8 +151,7 @@ const markdownOptions: DropdownOption[] = [
 const imageLightOptions: DropdownOption[] = [
   {
     text: 'Jedi',
-    value:
-      'https://dl.airtable.com/.attachmentThumbnails/7136316ae61f2abeca27085ae05b8b1f/db9f8d9d.png',
+    value: logo,
   },
   {
     text: 'Next.js',
