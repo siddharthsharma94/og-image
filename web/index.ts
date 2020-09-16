@@ -1,5 +1,4 @@
 import { ParsedRequest, Theme, FileType } from '../api/_lib/types';
-const logo = require('./hyper-color-logo.svg');
 const { H, R, copee } = window as any;
 let timeout = -1;
 
@@ -150,10 +149,6 @@ const markdownOptions: DropdownOption[] = [
 
 const imageLightOptions: DropdownOption[] = [
   {
-    text: 'Jedi',
-    value: logo,
-  },
-  {
     text: 'Next.js',
     value:
       'https://assets.vercel.com/image/upload/front/assets/design/nextjs-black-logo.svg',
@@ -162,6 +157,11 @@ const imageLightOptions: DropdownOption[] = [
     text: 'Hyper',
     value:
       'https://assets.vercel.com/image/upload/front/assets/design/hyper-color-logo.svg',
+  },
+  {
+    text: 'Jedi',
+    value:
+      'https://dl.airtable.com/.attachmentThumbnails/7136316ae61f2abeca27085ae05b8b1f/db9f8d9d.png',
   },
 ];
 
