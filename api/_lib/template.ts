@@ -76,6 +76,7 @@ function getCss(theme: string, fontSize: string) {
         align-content: center;
         justify-content: center;
         justify-items: center;
+        box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.25);
     }
 
     .logo {
