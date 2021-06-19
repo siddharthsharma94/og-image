@@ -80,7 +80,7 @@ function getCss(theme: string, fontSize: string, widths:string) {
 
     .logo {
         margin: 0 75px;
-        border-radius: ${+widths/4.267} px;
+        border-radius: ${+widths/4.267}px;
     }
 
     .plus {
