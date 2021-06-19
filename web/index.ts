@@ -165,7 +165,7 @@ const imageLightOptions: DropdownOption[] = [
   },
   {
     text: 'Airport',
-    value: 'https://airport.community/images/logo2.svg',
+    value: 'https://airport-bucket.s3.amazonaws.com/airport-cdn/airport-logo.svg',
   },{
     text: 'Sidd',
     value: 'https://media-exp1.licdn.com/dms/image/C4E03AQGBP523QkKZvw/profile-displayphoto-shrink_400_400/0?e=1605744000&v=beta&t=EOfjr7eCNCKxryIoC6_ORq3Qv6dUdbMIXY3EVZE5gJE',
