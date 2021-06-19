@@ -2,7 +2,7 @@
   "private": true,
   "scripts": {
     "build": "tsc -p api/tsconfig.json && tsc -p web/tsconfig.json",
-    "dev": "next dev"
+    "devv": "next dev"
   },
   "dependencies": {
     "chrome-aws-lambda": "2.1.1",
