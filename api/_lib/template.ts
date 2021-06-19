@@ -76,11 +76,12 @@ function getCss(theme: string, fontSize: string, widths:string) {
         align-content: center;
         justify-content: center;
         justify-items: center;
+        border-radius: ${+widths/4.267} px
+
     }
 
     .logo {
         margin: 0 75px;
-        border-radius: ${+widths/4.267} px
     }
 
     .plus {
